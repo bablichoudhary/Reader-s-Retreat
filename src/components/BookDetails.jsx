@@ -5,7 +5,7 @@ import { booksData } from "../utils/mockData";
 const BookDetails = () => {
 
   const navigate = useNavigate();
-  const { id } = useParams(); // Get the book ID from the URL
+  const { id } = useParams(); 
   const book = booksData.find((book) => book.id === parseInt(id));
 
   if (!book) {

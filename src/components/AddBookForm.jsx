@@ -1,4 +1,3 @@
-// src/components/AddBookForm.js
 import React, { useState } from 'react';
 
 const AddBookForm = ({ onAddBook }) => {
