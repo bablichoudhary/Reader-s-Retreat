@@ -111,6 +111,8 @@ Tailwind CSS: For making styling easy and efficient.
 React Router: For enabling dynamic routing in the application.
 
 Redux Toolkit: For simplifying state management.
+
+**website is now live! Visit [https://reader-s-retreat.vercel.app/] to explore."**
    
    
 
