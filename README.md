@@ -69,7 +69,7 @@ Features like adding books and filtering books are handled by Redux.
 **Installation and Setup**
 
 git clone  https://github.com/bablichoudhary/Reader-s-Retreat.git
-cd library-app
+cd vite-project
 
 **Install Dependencies:**
 npm install
