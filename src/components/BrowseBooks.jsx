@@ -24,7 +24,7 @@ const BrowseBooks = () => {
       {filteredBooks.length > 0 ? (
         <AllBooks books={filteredBooks} />
       ) : (
-        <p className=" text-xl text-center text-black ">Books will appear here.</p>
+        <p className=" text-xl text-center text-black mt-7">Books will appear here.</p>
       )}
       
     </div>

@@ -74,6 +74,25 @@ cd vite-project
 **Install Dependencies:**
 npm install
 
+**Tailwind Integration**
+npm install tailwindcss @tailwindcss/vite
+
+**Configure the Vite plugin**
+vite.config.ts
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+**Import Tailwind CSS**
+index.css , App.css
+@import "tailwindcss";
+
+
+
 **Start the Development Server:**
 npm run dev
 
